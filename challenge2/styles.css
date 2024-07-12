@@ -1,0 +1,171 @@
+body {
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    font-family: 'Arial', sans-serif;
+    font-size: 16px; 
+    line-height: 1.5;
+    color: #333; 
+    background-color: #fff;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 40px;
+    
+}
+
+#profile {
+    margin-bottom: 20px;
+}
+
+#profile img {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    margin-bottom: 10px;
+}
+
+#profile h1 {
+    font-size: 24px;
+    margin: 10px 0 5px;
+}
+
+#profile h2 {
+    font-size: 18px;
+    color: #777;
+    margin: 0;
+}
+
+#description {
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: #555;
+}
+
+.menu-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    margin-bottom: 20px;
+
+}
+
+.menu {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 5px; 
+}
+
+.menu img {
+    padding-top: 14px;
+}
+
+
+#works {
+    margin-top: 105px;
+    margin-bottom: 10px;
+}
+
+#works h2 {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 35px;
+}
+
+.trabalhos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+
+}
+
+.trabalhos figure {
+    margin: 0;
+    width: 200px;
+}
+
+.trabalhos img {
+    width: 100%;
+    height: 100%; 
+    object-fit: cover; 
+    border-radius: 10px;
+}
+
+.trabalhos figcaption {
+    font-size: 14px;
+    color: #555;
+    margin-top: 5px;
+    text-align: center;
+}
+
+#writing {
+    margin-top: 130px;
+    font-size: 16px;
+    color: #555;
+    
+}
+
+#work-history h2 {
+    margin-top: 100px;
+}
+
+.cardone{
+    display: flex;
+    width:645px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 16px;
+    margin-bottom: 15px;
+}
+
+.cardone img {
+    margin-top: 20px;
+    width: 15px; 
+    height: 15px; 
+    margin-right: 20px; 
+    margin-left: 12px;
+}
+
+.time {
+    margin-left: auto;
+    margin-right: 12px;
+}
+
+#social-links {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    width: 100%;
+}
+
+#social-links-container h2 {
+    margin-top: 100px;
+}
+
+.cardtwo {
+    display: flex;
+    align-items: center;
+    width: px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 16px;
+    margin-bottom: 15px;
+}
+
+.cardtwo img {
+    margin-top: 20px;
+    width: 18px; 
+    height: 18px; 
+    margin-right: 20px; 
+    margin-left: 15px;
+    margin-bottom: 20px;
+}
